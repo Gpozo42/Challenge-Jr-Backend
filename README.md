@@ -10,11 +10,11 @@ Answer: Option 1, the company wants a way to add contact information to a specif
 <br>
 <p>
   3. You work for a large social media network, and you've been tasked with error handling for the API. You're trying to decide on an appropriate errorcode for authentication failures based on non-existent users and incorrect passwords. You want to balance security against brute force attacks with providins descriptive and true error codes. Which HTTP error code(s) should you use to keep the system secure and still report that an error occurred?<br>
-Answer: Option 2.</p>
+Answer: Option 1, as HTTP 404 Error means that a specific route doesn't exist which in this case would be a route for a non-existing user. Also, HTTP 401 Error ensures that there's no authorization to get into the account of a user in case that an incorrect password was used.</p>
 <br>
 <p>
   4. You're writing documentation for requestiing information about a given user in your system. Your system uses UUIDS (universally unique identifiers) as user identifiers. In your documentation, you want to show an example. True or false: You should put a fake UUID into the example code (instead of just the text "UUID") as a placeholder.<br>
-Answer: Option 1.</p>
+Answer: Option 1, as documentation usually shows examples on how to use certain functions and traits, it's correct to put a fake UUID as an example to show how it's formated.</p>
 <br>
 <p>
   5. You're building code to handle errors issued from a remote API server. The response may or may not have an error. How much work should your method, handleErrors(response), handle?<br>
